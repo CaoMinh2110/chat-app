@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    ```
+    <!-- ================= AUTH / ACCOUNT ================= -->
+    <string name="action_select_google_account">Select Google Account</string>
+    <string name="message_waiting_for_google_sign_in">Waiting for Google Sign-In...</string>
+    <string name="prefix_creating_account_for">Creating account for %1$s</string>
+    <string name="message_no_account">Don\'t have an account? </string>
+
+    <!-- ================= PASSWORD ================= -->
+    <string name="title_set_password">Set Password</string>
+    <string name="title_password">Password</string>
+    <string name="title_confirm_password">Confirm Password</string>
+    <string name="message_passwords_not_match">Passwords do not match</string>
+
+    <!-- ================= AUTH UI ================= -->
+    <string name="title_register">Register</string>
+    <string name="title_email">Email</string>
+    <string name="title_log_in">Log In</string>
+    <string name="title_welcome_back">Welcome back!</string>
+    <string name="message_sign_in_to_continue">Sign in to continue</string>
+
+    <!-- ================= ONBOARDING ================= -->
+    <string name="title_secure_your_account">Secure your account</string>
+    <string name="title_continue_to_setup">Continue to Setup</string>
+
+    <!-- ================= PHOTOS ================= -->
+    <string name="title_add_photo">Add Your Photos</string>
+    <string name="prefix_max_photos">%1$d/%2$d photos</string>
+    <string name="message_upload_photo">Upload up to %1$d photos to show your best self</string>
+
+    <!-- ================= ABOUT / BIO ================= -->
+    <string name="title_about_me">About Me</string>
+    <string name="message_about_me">Tell others what makes you unique</string>
+    <string name="hint_about_you">Tell others about yourself...</string>
+
+    <!-- ================= PROFILE COMPLETE ================= -->
+    <string name="title_profile_complete">Profile complete!</string>
+    <string name="title_finish_set">You\'re All Set!</string>
+    <string name="message_finish_set">Your profile is ready. Start connecting with people.</string>
+
+    <!-- Checklist -->
+    <string name="message_basic_info">✅ Basic info</string>
+    <string name="message_location">✅ Location</string>
+    <string name="message_age_preferences">✅ Age preferences</string>
+    <string name="message_photos">✅ Photos</string>
+    <string name="message_bio_interests"><![CDATA[✅ Bio & interests]]></string>
+
+    <!-- ================= PREFERENCES ================= -->
+    <string name="title_preferences">Preferences</string>
+    <string name="title_looking_for_gender">Looking for Gender</string>
+    <string name="title_looking_for_personality">Looking for Personality</string>
+    <string name="message_looking_for">What are you looking for?</string>
+    <string name="prefix_age_range">Age Range: %1$d – %2$d</string>
+    ```
+
+</resources>

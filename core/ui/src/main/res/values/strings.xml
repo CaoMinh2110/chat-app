@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_following">Following</string>
+    <string name="title_follow">Follow</string>
+    <string name="title_show_less">Show less</string>
+    <string name="title_show_more">Show more</string>
+
+    <!-- Profile shared strings -->
+    <string name="prefix_age">age</string>
+    <string name="prefix_followers">followers</string>
+    <string name="prefix_following">following</string>
+    <string name="hint_content_input">What are you thinking?</string>
+    <string name="message_upload_image">Uploading image</string>
+    <string name="message_wait">Please wait…</string>
+    <string name="title_edit_profile">Edit profile</string>
+    <string name="title_image">Image</string>
+    <string name="title_photos">Photos</string>
+    <string name="title_post">Post</string>
+    <string name="title_posts">Posts</string>
+    <string name="title_about_me">About Me</string>
+    <string name="title_bio">Bio</string>
+    <string name="title_looking_for">Looking For</string>
+    <string name="title_traits">Traits</string>
+    <string name="title_interests">Interests</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_music">Music</string>
+    <string name="title_looking_for_ages">Ages</string>
+    <string name="title_looking_for_personality">Personality</string>
+    <string name="title_looking_for_gender">Gender</string>
+    <string name="title_author">Author</string>
+    <string name="title_take_photo">Take a photo</string>
+    <string name="title_photo_gallery">Photo gallery</string>
+    <string name="title_message">Message</string>
+    <string name="title_followers">Followers</string>
+    <string name="hint_search">Search...</string>
+
+    <string name="title_translate">Translate</string>
+    <string name="title_show_original">Show original</string>
+    <string name="title_hide_translate">Hide translate</string>
+</resources>

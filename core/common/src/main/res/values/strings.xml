@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COMMON -->
+    <string name="option_other">Other</string>
+
+    <!-- GENDER -->
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+
+    <!-- HOBBIES -->
+    <string name="hobbies_traveling">Traveling</string>
+    <string name="hobbies_football">Football</string>
+    <string name="hobbies_watching_tv">Watching TV</string>
+    <string name="hobbies_baseball">Baseball</string>
+    <string name="hobbies_music">Music</string>
+    <string name="hobbies_cars">Cars</string>
+    <string name="hobbies_basketball">Basketball</string>
+    <string name="hobbies_cooking">Cooking</string>
+    <string name="hobbies_pets">Pets</string>
+    <string name="hobbies_working_out">Working out</string>
+    <string name="hobbies_computer_games">Computer games</string>
+    <string name="hobbies_dancing">Dancing</string>
+    <string name="hobbies_arts">Arts</string>
+    <string name="hobbies_gardening">Gardening</string>
+    <string name="hobbies_fishing">Fishing</string>
+    <string name="hobbies_hunting">Hunting</string>
+    <string name="hobbies_hockey">Hockey</string>
+    <string name="hobbies_reading">Reading</string>
+    <string name="hobbies_boxing">Boxing</string>
+    <string name="hobbies_fashion">Fashion</string>
+    <string name="hobbies_nature">Nature</string>
+    <string name="hobbies_soccer">Soccer</string>
+    <string name="hobbies_biking">Biking</string>
+    <string name="hobbies_tennis">Tennis</string>
+    <string name="hobbies_astrology">Astrology</string>
+    <string name="hobbies_golf">Golf</string>
+    <string name="hobbies_photography">Photography</string>
+    <string name="hobbies_fitness">Fitness</string>
+    <string name="hobbies_yoga">Yoga</string>
+    <string name="hobbies_volunteering">Volunteering</string>
+    <string name="hobbies_shopping">Shopping</string>
+
+    <!-- TRAITS -->
+    <string name="traits_honest">Honest</string>
+    <string name="traits_cheerful">Cheerful</string>
+    <string name="traits_moody">Moody</string>
+    <string name="traits_self_confident">Self-confident</string>
+    <string name="traits_optimistic">Optimistic</string>
+    <string name="traits_calm">Calm</string>
+    <string name="traits_grateful">Grateful</string>
+    <string name="traits_thoughtful">Thoughtful</string>
+    <string name="traits_kind">Kind</string>
+    <string name="traits_humorous">Humorous</string>
+    <string name="traits_fun">Fun</string>
+    <string name="traits_generous">Generous</string>
+    <string name="traits_shy">Shy</string>
+    <string name="traits_curious">Curious</string>
+    <string name="traits_caring">Caring</string>
+    <string name="traits_likeable">Likeable</string>
+    <string name="traits_loyal">Loyal</string>
+    <string name="traits_quiet">Quiet</string>
+    <string name="traits_serious">Serious</string>
+
+    <!-- LOOKING FOR -->
+    <string name="looking_chatting">Chatting</string>
+    <string name="looking_finding_friend">Finding a friend</string>
+    <string name="looking_having_fun">Having fun</string>
+    <string name="looking_get_attention">Get attention</string>
+    <string name="looking_bored">I am bored</string>
+
+    <!-- MOVIES -->
+    <string name="movies_documentary">Documentary</string>
+    <string name="movies_animation">Animation</string>
+    <string name="movies_comedy">Comedy</string>
+    <string name="movies_adventure">Adventure</string>
+    <string name="movies_horror">Horror</string>
+    <string name="movies_action">Action</string>
+    <string name="movies_thriller">Thriller</string>
+    <string name="movies_drama">Drama</string>
+    <string name="movies_romcom">Romcom</string>
+    <string name="movies_western">Western</string>
+    <string name="movies_science_fiction">Science fiction</string>
+    <string name="movies_crime_film">Crime film</string>
+    <string name="movies_historical_drama">Historical drama</string>
+    <string name="movies_fantasy">Fantasy</string>
+    <string name="movies_dont_like">Don\'t like movies</string>
+
+    <!-- MUSIC -->
+    <string name="music_rock">Rock</string>
+    <string name="music_pop">Pop</string>
+    <string name="music_electronic">Electronic</string>
+    <string name="music_classical">Classical music</string>
+    <string name="music_jazz">Jazz</string>
+    <string name="music_hip_hop">Hip-hop</string>
+    <string name="music_melomaniac">Melomaniac</string>
+    <string name="music_country">Country</string>
+    <string name="music_folk">Folk</string>
+    <string name="music_dont_like">Don\'t like music</string>
+
+    <!-- PERSONALITIES -->
+    <string name="personalities_film_aficionado">Film aficionado</string>
+    <string name="personalities_music_addict">Music addict</string>
+    <string name="personalities_fitness_freak">Fitness freak</string>
+    <string name="personalities_career_chaser">Career chaser</string>
+    <string name="personalities_homebody">Homebody</string>
+    <string name="personalities_travel_enthusiast">Travel enthusiast</string>
+    <string name="personalities_nature_lover">Nature lover</string>
+
+</resources>

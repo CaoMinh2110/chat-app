@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_something_went_wrong">Something went wrong</string>
+    <string name="title_retry">Retry</string>
+    <string name="title_all">All</string>
+    <string name="title_following">Following</string>
+    <string name="title_follow">Follow</string>
+    <string name="hint_comment">Add a comment...</string>
+    <string name="prefix_show_replies">Show %1$d replies</string>
+    <string name="title_hide_replies">Hide replies</string>
+    <string name="title_reply">Reply</string>
+    <string name="hint_add_reply">Add reply...</string>
+    <string name="prefix_reply_to">Replying to %1$s</string>
+    <string name="action_delete_post">Delete Post</string>
+    <string name="action_report">Report</string>
+    <string name="title_show_original">Show original</string>
+    <string name="title_translate">Translate</string>
+</resources>

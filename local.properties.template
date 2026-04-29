@@ -1,0 +1,51 @@
+# local.properties
+# This file is used for local machine configuration and should NOT be committed to Git.
+# Copy this template and fill in your configuration values.
+# Add this file to .gitignore to prevent accidental commits.
+
+# ============================================================================
+# ANDROID SDK PATH
+# ============================================================================
+# Uncomment and set the path to your Android SDK
+# sdk.dir=/Users/yourname/Library/Android/sdk
+# OR
+# sdk.dir=C:\\Users\\yourname\\AppData\\Local\\Android\\Sdk
+
+# ============================================================================
+# API CONFIGURATION for chat-app
+# ============================================================================
+# Base URL for REST API endpoints
+API_BASE_URL=https://your.endpoint
+
+# Socket.IO Server URL for real-time messaging
+SOCKET_URL=https://your.endpoint
+
+# Image/Media Server URL
+IMG_URL=https://img.truongthinhconstruction.com
+
+# ============================================================================
+# DEVELOPMENT ENVIRONMENT (Optional: for debug builds)
+# ============================================================================
+# Uncomment these for local development with mock server
+#
+# API_BASE_URL=http://localhost:3000
+# SOCKET_URL=http://localhost:3000
+# IMG_URL=http://localhost:8000
+
+# ============================================================================
+# STAGING ENVIRONMENT (Optional)
+# ============================================================================
+# Uncomment these for staging/testing environment
+#
+# API_BASE_URL=https://staging-api.chatapp.com
+# SOCKET_URL=https://staging.chatapp.com
+# IMG_URL=https://staging-img.chatapp.com
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# 1. This file is tracked by .gitignore - it won't be pushed to Git
+# 2. Each developer should have their own local.properties with their config
+# 3. Never commit actual production URLs or credentials to Git
+# 4. To override these values per build type, modify build.gradle instead
+# 5. For CI/CD pipelines, set environment variables instead

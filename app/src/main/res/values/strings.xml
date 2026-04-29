@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">TrueVibeDate</string>
+
+  <string name="profile_description">description</string>
+  <string name="profile_edit_profile">Edit profile</string>
+  <string name="profile_image">Image</string>
+  <string name="profile_prefix_age">age</string>
+  <string name="profile_prefix_follower">follower</string>
+  <string name="profile_prefix_following">following</string>
+
+  <string name="format_date">dd/MM/yyyy</string>
+  <string name="profile_photos">Photo</string>
+  <string name="hint_content_input">What are you thinking?</string>
+  <string name="profile_post">Post</string>
+    <string name="profile_posts">Posts</string>
+</resources>

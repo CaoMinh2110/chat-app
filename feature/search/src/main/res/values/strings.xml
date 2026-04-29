@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_search_people">Search people...</string>
+
+    <string name="prefix_apply_age">Apply  %1$d</string>
+    <string name="title_back">Back</string>
+
+    <string name="title_age">Age</string>
+    <string name="title_min_age">Min Age</string>
+    <string name="title_max_age">Max Age</string>
+
+    <string name="title_gender">Gender</string>
+    <string name="title_looking">Looking for</string>
+    <string name="title_country">Country</string>
+
+    <string name="title_select_gender">Select Gender</string>
+    <string name="title_select_looking">Select Looking for</string>
+    <string name="title_select_country">Select Country</string>
+    <string name="title_online">Online</string>
+    <string name="title_follow">Follow</string>
+</resources>

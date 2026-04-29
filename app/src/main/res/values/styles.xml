@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.TrueVibeDate" parent="android:Theme.Material.Light.NoActionBar" />
+
+  <style name="Theme.TrueVibeDate.SplashScreen" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">#FF5F1F</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_background</item>
+    <item name="postSplashScreenTheme">@style/Theme.TrueVibeDate</item>
+  </style>
+</resources>

@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.devtools.ksp'
+}
+
+android {
+    namespace 'com.truevibeup.core.di'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 26
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    packaging {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+    // Core modules
+    implementation project(':core:common')
+    implementation project(':core:network')
+    implementation project(':core:storage')
+
+    // Hilt
+    implementation 'com.google.dagger:hilt-android:2.51.1'
+    ksp 'com.google.dagger:hilt-compiler:2.51.1'
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+    
+    // Retrofit (for ApiService type)
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+
+    implementation 'androidx.core:core-ktx:1.13.1'
+}

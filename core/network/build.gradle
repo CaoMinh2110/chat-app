@@ -1,0 +1,75 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.devtools.ksp'
+}
+
+// Load local.properties for API URLs
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localProperties.load(new FileInputStream(localPropertiesFile))
+}
+
+// Default values (should be overridden by local.properties)
+def API_BASE_URL = localProperties.getProperty('API_BASE_URL', 'https://your.endpoint/')
+def SOCKET_URL = localProperties.getProperty('SOCKET_URL', 'https://your.endpoint/')
+def IMG_URL = localProperties.getProperty('IMG_URL', 'https://your.endpoint/')
+
+android {
+    namespace 'com.truevibeup.core.network'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 26
+        
+        // SECURITY: API URLs loaded from local.properties (not hardcoded!)
+        buildConfigField "String", "API_BASE_URL", "\"$API_BASE_URL\""
+        buildConfigField "String", "SOCKET_URL", "\"$SOCKET_URL\""
+        buildConfigField "String", "IMG_URL", "\"$IMG_URL\""
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    packaging {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':core:common')
+    implementation project(':core:storage')
+
+    // Networking
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Socket.IO
+    implementation('io.socket:socket.io-client:2.1.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+
+    // Hilt
+    implementation 'com.google.dagger:hilt-android:2.51.1'
+    ksp 'com.google.dagger:hilt-compiler:2.51.1'
+
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
+}
